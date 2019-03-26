@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF17E0F4-C821-4AE0-8C24-E22B675E75DF}</ProjectGuid>
+    <ProjectGuid>{1EA08183-A3BF-4073-809C-A96427D59D4B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PathWithMinWeight</RootNamespace>
-    <AssemblyName>PathWithMinWeight</AssemblyName>
+    <RootNamespace>ConstructTrie</RootNamespace>
+    <AssemblyName>ConstructTrie</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

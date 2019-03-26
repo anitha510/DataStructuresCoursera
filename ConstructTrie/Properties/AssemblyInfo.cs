@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PathWithMinWeight")]
+[assembly: AssemblyTitle("ConstructTrie")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PathWithMinWeight")]
+[assembly: AssemblyProduct("ConstructTrie")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("df17e0f4-c821-4ae0-8c24-e22b675e75df")]
+[assembly: Guid("1ea08183-a3bf-4073-809c-a96427d59d4b")]
 
 // Version information for an assembly consists of the following four values:
 //
