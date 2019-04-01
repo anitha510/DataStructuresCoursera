@@ -105,7 +105,6 @@ Output:
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace ConstructTrie
 {
@@ -151,7 +150,10 @@ namespace ConstructTrie
                 child.print();
             }
         }
+    }
 
+    class Program
+    {
         public static Node<int, char> TrieConstruction(string[] Patterns)
         {
             Node<int, char> currentNode, nextNode;
@@ -159,10 +161,10 @@ namespace ConstructTrie
             char currentSymbol;
             int newVertex = 1;
 
-            foreach(string pattern in Patterns)
+            foreach (string pattern in Patterns)
             {
                 currentNode = Trie;
-                for(int i=0;i<pattern.Length;i++)
+                for (int i = 0; i < pattern.Length; i++)
                 {
                     currentSymbol = pattern[i];
                     nextNode = currentNode.Children.FirstOrDefault(n => n.Edge == currentSymbol);
@@ -181,10 +183,7 @@ namespace ConstructTrie
 
             return Trie;
         }
-    }
 
-    class Program
-    {
         static void Main(string[] args)
         {
             int lines = int.Parse(Console.ReadLine());
@@ -195,7 +194,7 @@ namespace ConstructTrie
                 patterns[i] = Console.ReadLine();
             }
 
-            Node<int, char> root = Node<int, char>.TrieConstruction(patterns);
+            Node<int, char> root = TrieConstruction(patterns);
             root.print();
 
             //Console.ReadLine();

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructTrie", "ConstructTrie\ConstructTrie.csproj", "{1EA08183-A3BF-4073-809C-A96427D59D4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieMatching", "TrieMatching\TrieMatching.csproj", "{B6DBFC43-BFBD-4B1E-B9C0-9C81C7004C74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1EA08183-A3BF-4073-809C-A96427D59D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA08183-A3BF-4073-809C-A96427D59D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EA08183-A3BF-4073-809C-A96427D59D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DBFC43-BFBD-4B1E-B9C0-9C81C7004C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DBFC43-BFBD-4B1E-B9C0-9C81C7004C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DBFC43-BFBD-4B1E-B9C0-9C81C7004C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DBFC43-BFBD-4B1E-B9C0-9C81C7004C74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
